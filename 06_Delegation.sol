@@ -31,3 +31,13 @@ contract Delegation {
     }
   }
 }
+/* 
+
+ In the provided smart contract,
+the owner of the Delegate contract can be changed by calling the pwn function
+through the Delegation contract.
+This means that anyone who interacts with the
+Delegation contract and knows how to trigger the pwn function
+can become the new owner of the Delegate contract, effectively changing control over it.
+
+*/
